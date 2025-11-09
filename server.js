@@ -319,16 +319,17 @@ app.all('*', (req, res) => {
 });
 
 // Start server
-if (process.env.NODE_ENV !== 'production') {
-  app.listen(PORT, () => {
-    console.log(`OpenAI to NVIDIA NIM Proxy running on port ${PORT}`);
-    console.log(`Health check: http://localhost:${PORT}/health`);
-    console.log(`Models: http://localhost:${PORT}/v1/models`);
-    console.log(`Chat: POST http://localhost:${PORT}/v1/chat/completions`);
-    console.log(`Reasoning display: ${SHOW_REASONING ? 'ENABLED' : 'DISABLED'}`);
-    console.log(`Thinking mode: ${ENABLE_THINKING_MODE ? 'ENABLED' : 'DISABLED'}`);
-  });
-}
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`========================================`);
+  console.log(`OpenAI to NVIDIA NIM Proxy running on port ${PORT}`);
+  console.log(`Health check: http://localhost:${PORT}/health`);
+  console.log(`Models: http://localhost:${PORT}/v1/models`);
+  console.log(`Chat: POST http://localhost:${PORT}/v1/chat/completions`);
+  console.log(`Reasoning display: ${SHOW_REASONING ? 'ENABLED' : 'DISABLED'}`);
+  console.log(`Thinking mode: ${ENABLE_THINKING_MODE ? 'ENABLED' : 'DISABLED'}`);
+  console.log(`NIM API Key configured: ${NIM_API_KEY ? 'YES' : 'NO'}`);
+  console.log(`========================================`);
+});
 
 // Export for Vercel
 module.exports = app;
