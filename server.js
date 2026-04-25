@@ -35,7 +35,9 @@ const MODEL_MAPPING = {
   'gpt-4o': 'z-ai/glm4_7',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'GLM5': 'z-ai/glm-5.1', 
+  'GLM5': 'z-ai/glm-5.1',
+  'DEEP4P': 'deepseek-ai/deepseek-v4-pro', 
+  'DEEP4F': 'deepseek-ai/deepseek-v4-flash', 
   'GLM': 'z-ai/glm4.7'
 };
 
