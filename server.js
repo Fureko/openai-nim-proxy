@@ -41,7 +41,7 @@ const MODEL_MAPPING = {
   'GLM5': 'z-ai/glm-5.2',
   'DEEP4P': 'deepseek-ai/deepseek-v4-pro',
   'DEEP4F': 'deepseek-ai/deepseek-v4-flash',
-  'Mistral': 'mistralai/mistral-medium-3.5-128b',
+  'Mistral': 'openai/gpt-oss-120b',
   'MoonShot': 'moonshotai/kimi-k2.6',
   'StepFun': 'stepfun-ai/step-3.7-flash',
   'Gemma': 'google/gemma-4-31b-it',
