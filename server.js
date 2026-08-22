@@ -40,7 +40,7 @@ const MODEL_MAPPING = {
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'GLM5': 'z-ai/glm-5.2',
   'DEEP4P': 'deepseek-ai/deepseek-v4-pro',
-  'DEEP4F': 'deepseek-ai/deepseek-v4-flash',
+  'DEEP4F': 'deepseek-ai/deepseek-v4-flash-0731',
   'Mistral': 'openai/gpt-oss-120b',
   'MoonShot': 'moonshotai/kimi-k2.6',
   'StepFun': 'stepfun-ai/step-3.7-flash',
