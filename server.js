@@ -32,19 +32,7 @@ const DEFAULT_MAX_TOKENS = parseInt(process.env.DEFAULT_MAX_TOKENS || '4096', 10
 
 // Mapping des modèles (alias OpenAI -> modèle NIM réel)
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
-  'DEEP': 'deepseek-ai/deepseek-v3.1-terminus',
-  'DEEP2': 'deepseek-ai/deepseek-v3.2',
-  'gpt-4o': 'z-ai/glm4_7',
-  'claude-3-opus': 'openai/gpt-oss-120b',
-  'claude-3-sonnet': 'openai/gpt-oss-20b',
-  'GLM5': 'z-ai/glm-5.2',
-  'DEEP4P': 'deepseek-ai/deepseek-v4-pro',
-  'DEEP4F': 'deepseek-ai/deepseek-v4-flash-0731',
-  'Mistral': 'openai/gpt-oss-120b',
-  'MoonShot': 'moonshotai/kimi-k2.6',
-  'StepFun': 'stepfun-ai/step-3.7-flash',
-  'Gemma': 'google/gemma-4-31b-it',
+  'DEEP4F': 'deepseek/deepseek-v4-flash',
 };
 
 // =====================================================================
