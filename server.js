@@ -33,6 +33,7 @@ const DEFAULT_MAX_TOKENS = parseInt(process.env.DEFAULT_MAX_TOKENS || '4096', 10
 // Mapping des modèles (alias OpenAI -> modèle NIM réel)
 const MODEL_MAPPING = {
   'DEEP4F': 'deepseek-ai/deepseek-v4-flash-0731',
+  'DEEP4P': 'deepseek-ai/deepseek-v4-pro-0813',
 };
 
 // =====================================================================
