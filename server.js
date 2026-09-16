@@ -34,6 +34,8 @@ const DEFAULT_MAX_TOKENS = parseInt(process.env.DEFAULT_MAX_TOKENS || '4096', 10
 const MODEL_MAPPING = {
   'DEEP4F': 'deepseek-ai/deepseek-v4-flash-0731',
   'DEEP4P': 'deepseek-ai/deepseek-v4-pro-0813',
+  'GLM5': 'z-ai/glm-5.3',
+  'GLM5F': 'z-ai/glm-5.3-flash',
 };
 
 // =====================================================================
